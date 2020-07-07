@@ -140,7 +140,66 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | (Skeletal) Pose Asset | SKP_| | |
 | (Skeletal) Physics Asset | SKPH_| | |
 
-#### 1.3.4 Particles
+#### 1.3.4 Artificial Intelligence
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| AI Controller | AIC_ | | |
+| Behavior Tree | BT_ | | |
+| Blackboard | BB_ | | |
+| Decorator | BTDecorator_ | | |
+| Service | BTService_ | | |
+| Task | BTTask_ | | |
+
+#### 1.3.5 Materials
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Material | M_| | |
+| Material (Decal) | M_|_Decal | |
+| Material (Post Process) | M_|_PP | |
+| Material (UI) | M_|_UI| |
+| Material Function | MF_| | |
+| Material Instance | MI_| | |
+| Material Parameter Collection | MPC_| | |
+
+#### 1.3.6 Textures
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Texture | T_| | |
+| Texture (Diffuse/Albedo/Base) | T_|_D | |
+| Texture (Normal) | T_|_N | |
+| Texture (Roughness) | T_|_R | |
+| Texture (Alpha/Opacity) | T_|_A | |
+| Texture (Ambient Occlusion) | T_|_O | |
+| Texture (Bump) | T_|_B | |
+| Texture (Emissive) | T_|_E | |
+| Texture (Mask) | T_|_M | |
+| Texture (Specular) | T_|_S | |
+| Texture Cube | TC_| | |
+| Media Texture | MT_| | |
+| Render Target | RT_| | |
+| Cube Render Target | CRT_| | |
+| Texture Light Profile | TLP_| | |
+
+##### 1.3.6.1 Texture Packing
+
+From Gamemakin LLC style guide:
+
+>It is common practice to pack multiple layers of >texture data into one texture. An example of this is >packing Emissive, Roughness, Ambient Occlusion together >as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. _ERO.
+>
+>It is generally acceptable to include an Alpha/Opacity >layer in your Diffuse/Albedo's alpha channel and as >this is common practice, adding A to the _D suffix is >optional.
+>
+>Packing 4 channels of data into a texture (RGBA) is not >recommended except for an Alpha/Opacity mask in the >Diffuse/Albedo's alpha channel as a texture with an >alpha channel incurs more overhead than one without.
+
+#### 1.3.7 Meshes
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| StaticMesh | SM_| | |
+
+#### 1.3.8 Particles
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
@@ -154,14 +213,25 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | Niagara Parameter Collection | NFXP_| | |
 | Niagara Parameter Collection Instance | NFXPI_| | |
 
-#### 1.3.5 Physics
+#### 1.3.9 Physics
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
 | Physical Material | PHYSM_| | |
 | Physical Material Mask | PHYSMM_| | |
 
-#### 1.3.6 User Interface
+#### 1.3.10 Sounds
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Sound Cue | S_| | |
+| Sound Wave | SW_| | |
+| Sound Attenuation | SATT_| | |
+| Sound Mix | SMIX_| | |
+| Sound Class | SCL_| | |
+| Sound Concurrency | SCR_ | | Should be named after corresponding Sound Class |
+
+#### 1.3.11 User Interface
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |

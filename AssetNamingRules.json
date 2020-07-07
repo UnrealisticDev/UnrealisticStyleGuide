@@ -133,8 +133,52 @@
       "prefix": "BTService_"
     },
     {
-      "class": "BTTask",
+      "class": "BTTaskNode",
       "prefix": "BTTask_"
+    },
+    {
+      "class": "Material",
+      "prefix": "M_"
+    },
+    {
+      "class": "MaterialFunction",
+      "prefix": "MF_"
+    },
+    {
+      "class": "MaterialInstance",
+      "prefix": "MI_"
+    },
+    {
+      "class": "MaterialParameterCollection",
+      "prefix": "MPC_"
+    },
+    {
+      "class": "Texture2D",
+      "prefix": "T_"
+    },
+    {
+      "class": "TextureCube",
+      "prefix": "TC_"
+    },
+    {
+      "class": "MediaTexture",
+      "prefix": "MT_"
+    },
+    {
+      "class": "RenderTarget",
+      "prefix": "RT_"
+    },
+    {
+      "class": "CubeRenderTarget",
+      "prefix": "CRT_"
+    },
+    {
+      "class": "TextureLightProfile",
+      "prefix": "TLP_"
+    },
+    {
+      "class": "StaticMesh",
+      "prefix": "SM_"
     },
     {
       "class": "ParticleSystem",
@@ -171,7 +215,31 @@
     {
       "class": "PhysicalMaterialMask",
       "prefix": "PHYSMM_"
-    }
+    },
+    {
+      "class": "SoundCue",
+      "prefix": "S_"
+    },
+    {
+      "class": "SoundWave",
+      "prefix": "SW_"
+    },
+    {
+      "class": "SoundAttenuation",
+      "prefix": "SATT_"
+    },
+    {
+      "class": "SoundMix",
+      "prefix": "SMIX_"
+    },
+    {
+      "class": "SoundClass",
+      "prefix": "SCL_"
+    },
+    {
+      "class": "SoundConcurrency",
+      "prefix": "SCN_"
+    },
     {
       "class": "WidgetBlueprint",
       "prefix": "W_"
