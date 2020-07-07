@@ -109,6 +109,34 @@
       "prefix": "SKP_"
     },
     {
+      "class": "PhysicsAsset",
+      "prefix": "SKPH_"
+    },
+    {
+      "class": "AIController",
+      "prefix": "AIC_"
+    },
+    {
+      "class": "BehaviorTree",
+      "prefix": "BT_"
+    },
+    {
+      "class": "Blackboard",
+      "prefix": "BB_"
+    },
+    {
+      "class": "BTDecorator",
+      "prefix": "BTDecorator_"
+    },
+    {
+      "class": "BTService",
+      "prefix": "BTService_"
+    },
+    {
+      "class": "BTTask",
+      "prefix": "BTTask_"
+    },
+    {
       "class": "ParticleSystem",
       "prefix": "P_"
     },
@@ -135,6 +163,30 @@
     {
       "class": "NiagaraParameterCollectionInstance",
       "prefix": "NFXPI_"
+    },
+    {
+      "class": "PhysicalMaterial",
+      "prefix": "PHYSM_"
+    },
+    {
+      "class": "PhysicalMaterialMask",
+      "prefix": "PHYSMM_"
+    }
+    {
+      "class": "WidgetBlueprint",
+      "prefix": "W_"
+    },
+    {
+      "class": "Font",
+      "prefix": "FONT_"
+    },
+    {
+      "class": "SlateBrush",
+      "prefix": "SBR_"
+    },
+    {
+      "class": "SlateWidgetStyle",
+      "prefix": "SWS_"
     }
   ]
 }

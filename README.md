@@ -138,6 +138,7 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | Skeleton | SK_ | | |
 | Skeletal Mesh | SKM_| | |
 | (Skeletal) Pose Asset | SKP_| | |
+| (Skeletal) Physics Asset | SKPH_| | |
 
 #### 1.3.4 Particles
 
@@ -157,13 +158,18 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
+| Physical Material | PHYSM_| | |
+| Physical Material Mask | PHYSMM_| | |
 
 #### 1.3.6 User Interface
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
-| Widget | W_| | |
-| Widget (In World) | W_|_World| |
+| Widget Blueprint | W_| | |
+| Widget Blueprint (Used In World) | W_|_World| |
+| Font | FONT_| | |
+| Slate Brush | SBR_| | |
+| Slate Widget Style | SWS_| | |
 
 ## Code
 
