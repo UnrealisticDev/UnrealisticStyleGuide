@@ -1,3 +1,40 @@
 {
-  "rules":[]
+  "rules":[
+    {
+      "class": "Blueprint",
+      "prefix": "BP_"
+    },
+    {
+      "class": "Actor",
+      "prefix": "ACT_"
+    },
+    {
+      "class": "Pawn",
+      "prefix": "PWN_"
+    },
+    {
+      "class": "Character",
+      "prefix": "CH_"
+    },
+    {
+      "class": "PlayerController",
+      "prefix": "PC_"
+    },
+    {
+      "class": "PlayerState",
+      "prefix": "PS_"
+    },
+    {
+      "class": "GameModeBase",
+      "prefix": "GM_"
+    },
+    {
+      "class": "GameStateBase",
+      "prefix": "GS_"
+    },
+    {
+      "class": "GameInstance",
+      "prefix": "GI_"
+    }
+  ]
 }

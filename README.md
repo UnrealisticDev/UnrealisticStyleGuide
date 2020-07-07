@@ -99,6 +99,7 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | ---------- | ------ | ------ | ----- |
 | Actor | ACT_| | |
 | Pawn | PWN_| | |
+| Character | CH_| | |
 | PlayerController | PC_| | |
 | PlayerState | PS_| | |
 | GameModeBase | GM_| | |
