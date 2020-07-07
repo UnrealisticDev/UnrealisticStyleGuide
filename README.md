@@ -27,7 +27,7 @@ Each project, like each essay or brief, will have its own unique classes and log
 structure that defy one-size-fits-all classification. However, each project should strive
 to follow these basic guidelines. (*Thanks are due to Michael Allar for creating
 the [Gamemakin UE4 Style Guide](https://github.com/Allar/ue4-style-guide), which served as
-the foundation for this style guide.*)
+the inspiration for this style guide.*)
 
 ### Linter
 
@@ -88,7 +88,7 @@ Many things come with Blueprint scripting - Objects, Actors, Widgets, etc. This 
 
 We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do not apply the prefix to:
 
-* Actors
+* Actors or Actor subclasses
 * Widget Blueprints
 * Anything else
 
