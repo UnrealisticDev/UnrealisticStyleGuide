@@ -187,11 +187,11 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 From the Gamemakin LLC style guide:
 
->It is common practice to pack multiple layers of >texture data into one texture. An example of this is >packing Emissive, Roughness, Ambient Occlusion together >as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. _ERO.
+>It is common practice to pack multiple layers of texture data into one texture. An example of this is packing Emissive, Roughness, Ambient Occlusion together as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. _ERO.
 >
->It is generally acceptable to include an Alpha/Opacity >layer in your Diffuse/Albedo's alpha channel and as >this is common practice, adding A to the _D suffix is >optional.
+>It is generally acceptable to include an Alpha/Opacity layer in your Diffuse/Albedo's alpha channel and as this is common practice, adding A to the _D suffix is optional.
 >
->Packing 4 channels of data into a texture (RGBA) is not >recommended except for an Alpha/Opacity mask in the >Diffuse/Albedo's alpha channel as a texture with an >alpha channel incurs more overhead than one without.
+>Packing 4 channels of data into a texture (RGBA) is not recommended except for an Alpha/Opacity mask in the Diffuse/Albedo's alpha channel as a texture with an alpha channel incurs more overhead than one without.
 
 #### 1.3.7 Meshes
 
