@@ -91,6 +91,7 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 * Actors or Actor subclasses
 * Widget Blueprints
+* Animation Blueprints
 * Anything else
 
 #### 1.3.2 Gameplay Core
@@ -106,7 +107,46 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | GameStateBase | GS_ | | |
 | GameInstance | GI_| | |
 
-(*Coming soon...*)
+#### 1.3.3 Animations
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Animation Sequence | A_| | |
+| Animation Composite | AC_| | |
+| Animation Montage | AM_| | |
+| Animation Blueprint | ABP_| | |
+| Aim Offset 1D | AO1_| | |
+| Aim Offset (2D) | AO2_| | |
+| Blend Space 1D | BS1_| | |
+| Blend Space (2D) | BS2_| | |
+
+##### 1.3.3.1 Skeletons
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Rig | RIG_| | |
+| Skeleton | SK_ | | |
+| Skeletal Mesh | SKM_| | |
+| (Skeletal) Pose Asset | SKP_| | |
+
+#### 1.3.4 Particles
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Particle System | P_| | |
+| Niagara System | NFX_| | |
+| Niagara Emitter | NFXE_| | |
+| Niagara Effect Type | NFXET_| | |
+| Niagara Dynamic Input Script (General) | NFXS_| | |
+| Niagara Dynamic Input Script (Function) | NFXS_|_FN| |
+| Niagara Dynamic Input Script (Module) | NFXS_|_MOD| |
+| Niagara Parameter Collection | NFXP_| | |
+| Niagara Parameter Collection Instance | NFXPI_| | |
+
+#### 1.3.5 Physics
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
 
 ## Code
 
