@@ -82,6 +82,7 @@ Pair the base and variant of your asset with the following modifiers to calculat
 #### 1.3.1 Object Blueprints
 
 | Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
 | Object Blueprint | BP_| | |  
 
 Many things come with Blueprint scripting - Objects, Actors, Widgets, etc. This has led to the unfortunate practice of using the `BP_` prefix with *anything* that incorporates Blueprint scripting. This practice leads to a Content directory full of `BP_` prefixed assets, with no way to tell what each one is without looking at the thumbnail or opening the asset.
@@ -95,6 +96,7 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 #### 1.3.2 Gameplay Core
 
 | Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
 | Actor | ACT_| | |
 | Pawn | PWN_| | |
 | PlayerController | PC_| | |
