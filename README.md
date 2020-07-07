@@ -185,7 +185,7 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 ##### 1.3.6.1 Texture Packing
 
-From Gamemakin LLC style guide:
+From the Gamemakin LLC style guide:
 
 >It is common practice to pack multiple layers of >texture data into one texture. An example of this is >packing Emissive, Roughness, Ambient Occlusion together >as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. _ERO.
 >
@@ -229,7 +229,7 @@ From Gamemakin LLC style guide:
 | Sound Attenuation | SATT_| | |
 | Sound Mix | SMIX_| | |
 | Sound Class | SCL_| | |
-| Sound Concurrency | SCR_ | | Should be named after corresponding Sound Class |
+| Sound Concurrency | SCN_ | | Should be named after corresponding Sound Class |
 
 #### 1.3.11 User Interface
 
