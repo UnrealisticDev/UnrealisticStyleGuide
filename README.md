@@ -31,7 +31,7 @@ the inspiration for this style guide.*)
 
 ### Linter
 
-There is an Editor plugin available on the [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/remapt-input-remapping-system) that allows you to easily enforce the asset styling conventions
+There is an Editor plugin available on the [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/prefixed-asset-linter) that allows you to easily enforce the asset styling conventions
 in this guide (or to edit those conventions to fit your needs).
 
 ### Discussion
