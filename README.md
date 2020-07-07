@@ -75,17 +75,27 @@ A variant is used to identify a subset of a base. For example, skeletal mesh ski
 
 A suffix is used to identify a subset of an asset type. Certain assets, such as Textures, will have various sub-types (e.g. diffuse, normal, alpha) which are not reflected in the prefix and which cannot otherwise be determined without opening up the asset itself. In these limited circumstances, a suffix can help to provide further context in a consistent way. A suffix is not a substitute for a prefix. Most assets will not have a suffix.
 
+#### 1.2.1 Spacing and Casing
+
+Asset names should not have spaces. Asset names should not have underscores, except for prefixes and suffixes. Bases and variants should be in [PascalCase](https://techterms.com/definition/pascalcase).
+
 ### 1.3 Naming Conventions
 
 Pair the base and variant of your asset with the following modifiers to calculate the final name for your asset.
 
-#### 1.3.1 Object Blueprints
+#### 1.3.1 Blueprints
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
-| Object Blueprint | BP_| | |  
+| Blueprint (Objects) | BP_| | |
+| Blueprint (Components) | BPC_| | |
+| Blueprint Interface | BPI_| | |
+| Blueprint Function Library | BPFL_| | |
+| Blueprint Macro Library | BPML_| | |
+| Enumeration | E | | |
+| Structure | F | |
 
-Many things come with Blueprint scripting - Objects, Actors, Widgets, etc. This has led to the unfortunate practice of using the `BP_` prefix with *anything* that incorporates Blueprint scripting. This practice leads to a Content directory full of `BP_` prefixed assets, with no way to tell what each one is without looking at the thumbnail or opening the asset.
+Many assets come with Blueprint scripting - Objects, Actors, Widgets, etc. This has led to the unfortunate practice of using the `BP_` prefix with *anything* that incorporates Blueprint scripting. In turn, this results in a Content directory full of `BP_` prefixed assets, with no way to tell what each one is without looking at the thumbnail or opening the asset.
 
 We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do not apply the prefix to:
 
@@ -147,6 +157,13 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
+
+#### 1.3.6 User Interface
+
+| Asset Type | Prefix | Suffix | Notes |
+| ---------- | ------ | ------ | ----- |
+| Widget | W_| | |
+| Widget (In World) | W_|_World| |
 
 ## Code
 

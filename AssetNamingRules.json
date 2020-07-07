@@ -5,6 +5,30 @@
       "prefix": "BP_"
     },
     {
+      "class": "ActorComponent",
+      "prefix": "BPC_"
+    },
+    {
+      "class": "BlueprintInterface",
+      "prefix": "BPI_"
+    },
+    {
+      "class": "BlueprintFunctionLibrary",
+      "prefix": "BPFL_"
+    },
+    {
+      "class": "BlueprintMacroLibrary",
+      "prefix": "BPML_"
+    },
+    {
+      "class": "Enumeration",
+      "prefix": "E"
+    },
+    {
+      "class": "Structure",
+      "prefix": "F"
+    },
+    {
       "class": "Actor",
       "prefix": "ACT_"
     },
