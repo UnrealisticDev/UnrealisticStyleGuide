@@ -1,0 +1,260 @@
+{
+  "rules":[
+    {
+      "class": "Blueprint",
+      "prefix": "BP_"
+    },
+    {
+      "class": "ActorComponent",
+      "prefix": "BPC_"
+    },
+    {
+      "class": "BlueprintInterface",
+      "prefix": "BPI_"
+    },
+    {
+      "class": "BlueprintFunctionLibrary",
+      "prefix": "BPFL_"
+    },
+    {
+      "class": "BlueprintMacroLibrary",
+      "prefix": "BPML_"
+    },
+    {
+      "class": "Enumeration",
+      "prefix": "E"
+    },
+    {
+      "class": "Structure",
+      "prefix": "F"
+    },
+    {
+      "class": "Actor",
+      "prefix": "ACT_"
+    },
+    {
+      "class": "Pawn",
+      "prefix": "PWN_"
+    },
+    {
+      "class": "Character",
+      "prefix": "CH_"
+    },
+    {
+      "class": "PlayerController",
+      "prefix": "PC_"
+    },
+    {
+      "class": "PlayerState",
+      "prefix": "PS_"
+    },
+    {
+      "class": "GameModeBase",
+      "prefix": "GM_"
+    },
+    {
+      "class": "GameStateBase",
+      "prefix": "GS_"
+    },
+    {
+      "class": "GameInstance",
+      "prefix": "GI_"
+    },
+    {
+      "class": "AnimationSequence",
+      "prefix": "A_"
+    },
+    {
+      "class": "AnimationComposite",
+      "prefix": "AC_"
+    },
+    {
+      "class": "AnimationMontage",
+      "prefix": "AM_"
+    },
+    {
+      "class": "AnimationBlueprint",
+      "prefix": "ABP_"
+    },
+    {
+      "class": "AimOffset1D",
+      "prefix": "AO1_"
+    },
+    {
+      "class": "AimOffset",
+      "prefix": "A02_"
+    },
+    {
+      "class": "BlendSpace1D",
+      "prefix": "BS1_"
+    },
+    {
+      "class": "BlendSpace",
+      "prefix": "BS2_"
+    },
+    {
+      "class": "Rig",
+      "prefix": "RIG_"
+    },
+    {
+      "class": "Skeleton",
+      "prefix": "SK_"
+    },
+    {
+      "class": "SkeletalMesh",
+      "prefix": "SKM_"
+    },
+    {
+      "class": "PoseAsset",
+      "prefix": "SKP_"
+    },
+    {
+      "class": "PhysicsAsset",
+      "prefix": "SKPH_"
+    },
+    {
+      "class": "AIController",
+      "prefix": "AIC_"
+    },
+    {
+      "class": "BehaviorTree",
+      "prefix": "BT_"
+    },
+    {
+      "class": "Blackboard",
+      "prefix": "BB_"
+    },
+    {
+      "class": "BTDecorator",
+      "prefix": "BTDecorator_"
+    },
+    {
+      "class": "BTService",
+      "prefix": "BTService_"
+    },
+    {
+      "class": "BTTaskNode",
+      "prefix": "BTTask_"
+    },
+    {
+      "class": "Material",
+      "prefix": "M_"
+    },
+    {
+      "class": "MaterialFunction",
+      "prefix": "MF_"
+    },
+    {
+      "class": "MaterialInstance",
+      "prefix": "MI_"
+    },
+    {
+      "class": "MaterialParameterCollection",
+      "prefix": "MPC_"
+    },
+    {
+      "class": "Texture2D",
+      "prefix": "T_"
+    },
+    {
+      "class": "TextureCube",
+      "prefix": "TC_"
+    },
+    {
+      "class": "MediaTexture",
+      "prefix": "MT_"
+    },
+    {
+      "class": "RenderTarget",
+      "prefix": "RT_"
+    },
+    {
+      "class": "CubeRenderTarget",
+      "prefix": "CRT_"
+    },
+    {
+      "class": "TextureLightProfile",
+      "prefix": "TLP_"
+    },
+    {
+      "class": "StaticMesh",
+      "prefix": "SM_"
+    },
+    {
+      "class": "ParticleSystem",
+      "prefix": "P_"
+    },
+    {
+      "class": "NiagaraSystem",
+      "prefix": "NFX_"
+    },
+    {
+      "class": "NiagaraEmitter",
+      "prefix": "NFXE_"
+    },
+    {
+      "class": "NiagaraEffectType",
+      "prefix": "NFXET_"
+    },
+    {
+      "class": "NiagaraDynamicInputScript",
+      "prefix": "NFXS_"
+    },
+    {
+      "class": "NiagaraParameterCollection",
+      "prefix": "NFXP_"
+    },
+    {
+      "class": "NiagaraParameterCollectionInstance",
+      "prefix": "NFXPI_"
+    },
+    {
+      "class": "PhysicalMaterial",
+      "prefix": "PHYSM_"
+    },
+    {
+      "class": "PhysicalMaterialMask",
+      "prefix": "PHYSMM_"
+    },
+    {
+      "class": "SoundCue",
+      "prefix": "S_"
+    },
+    {
+      "class": "SoundWave",
+      "prefix": "SW_"
+    },
+    {
+      "class": "SoundAttenuation",
+      "prefix": "SATT_"
+    },
+    {
+      "class": "SoundMix",
+      "prefix": "SMIX_"
+    },
+    {
+      "class": "SoundClass",
+      "prefix": "SCL_"
+    },
+    {
+      "class": "SoundConcurrency",
+      "prefix": "SCN_"
+    },
+    {
+      "class": "WidgetBlueprint",
+      "prefix": "W_"
+    },
+    {
+      "class": "Font",
+      "prefix": "FONT_"
+    },
+    {
+      "class": "SlateBrush",
+      "prefix": "SBR_"
+    },
+    {
+      "class": "SlateWidgetStyle",
+      "prefix": "SWS_"
+    }
+  ]
+}
