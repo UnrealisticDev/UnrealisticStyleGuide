@@ -243,8 +243,4 @@ From the Gamemakin LLC style guide:
 
 ## Code
 
-(*Coming soon...*)
-
-## Project
-
-(*Coming soon...*)
+Epic recently put a [C++ style guide](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html). It covers most use cases and should be followed absent a compelling countervailing reason.
