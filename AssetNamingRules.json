@@ -1,5 +1,5 @@
 // DEPRECATED. If you intended to use this with the Prefixed plugin,
-// you should upgrade the plugin and use the .prefix file in this
+// you should upgrade the plugin and use the Core.prefix file in this
 // repository instead.
 {
   "rules":[
