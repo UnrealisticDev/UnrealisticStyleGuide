@@ -73,7 +73,7 @@
       "prefix": "AM_"
     },
     {
-      "class": "AnimationBlueprint",
+      "class": "AnimBlueprint",
       "prefix": "ABP_"
     },
     {
