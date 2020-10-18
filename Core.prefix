@@ -21,11 +21,13 @@
       "prefix": "BPML_"
     },
     {
-      "class": "Enumeration",
+      "aka": "Enumeration",
+      "class": "UserDefinedEnum",
       "prefix": "E"
     },
     {
-      "class": "Structure",
+      "aka": "Structure",
+      "class": "UserDefinedStruct",
       "prefix": "F"
     },
     {
