@@ -36,7 +36,7 @@ in this guide (or to edit those conventions to fit your needs).
 
 ### Discussion
 
-To discuss this style guide, add a comment to the dedicated page on [Unrealistic.dev](https://www.unrealistic.dev/unrealistic-style-guide).
+To discuss this style guide, add a comment to the dedicated page on [Unrealistic.dev](https://unrealistic.dev/posts/unrealistic-style-guide).
 
 ### Structure
 
