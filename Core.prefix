@@ -173,11 +173,13 @@
 			"prefix": "MT_"
 		},
 		{
-			"class": "RenderTarget",
+      "aka": "RenderTarget",
+			"class": "TextureRenderTarget2D",
 			"prefix": "RT_"
 		},
 		{
-			"class": "CubeRenderTarget",
+      "aka": "CubeRenderTarget",
+			"class": "TextureRenderTargetCube",
 			"prefix": "CRT_"
 		},
 		{
