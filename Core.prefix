@@ -152,7 +152,8 @@
 			"prefix": "MF_"
 		},
 		{
-			"class": "MaterialInstance",
+      "aka": "MaterialInstance",
+			"class": "MaterialInstanceConstant",
 			"prefix": "MI_"
 		},
 		{
