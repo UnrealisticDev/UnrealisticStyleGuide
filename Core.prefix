@@ -63,15 +63,15 @@
       "prefix": "GI_"
     },
     {
-      "class": "AnimationSequence",
+      "class": "AnimSequence",
       "prefix": "A_"
     },
     {
-      "class": "AnimationComposite",
+      "class": "AnimComposite",
       "prefix": "AC_"
     },
     {
-      "class": "AnimationMontage",
+      "class": "AnimMontage",
       "prefix": "AM_"
     },
     {
@@ -79,11 +79,11 @@
       "prefix": "ABP_"
     },
     {
-      "class": "AimOffset1D",
+      "class": "AimOffsetBlendSpace1D",
       "prefix": "AO1_"
     },
     {
-      "class": "AimOffset",
+      "class": "AimOffsetBlendSpace",
       "prefix": "A02_"
     },
     {
