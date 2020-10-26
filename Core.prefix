@@ -267,11 +267,13 @@
 			"prefix": "FONT_"
 		},
 		{
-			"class": "SlateBrush",
+      "aka": "SlateBrush",
+			"class": "SlateBrushAsset",
 			"prefix": "SBR_"
 		},
 		{
-			"class": "SlateWidgetStyle",
+      "aka": "SlateWidgetStyle",
+			"class": "SlateWidgetStyleAsset",
 			"prefix": "SWS_"
 		}
 	]
