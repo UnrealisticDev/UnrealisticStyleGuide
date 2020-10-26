@@ -88,7 +88,7 @@
 		},
 		{
 			"class": "AimOffsetBlendSpace",
-			"prefix": "A02_"
+			"prefix": "AO2_"
 		},
 		{
 			"class": "BlendSpace1D",
@@ -127,7 +127,8 @@
 			"prefix": "BT_"
 		},
 		{
-			"class": "Blackboard",
+      "aka": "Blackboard",
+			"class": "BlackboardData",
 			"prefix": "BB_"
 		},
 		{
