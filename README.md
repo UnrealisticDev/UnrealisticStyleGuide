@@ -107,8 +107,8 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
-| Component (Actor) | COMPA_| | |
-| Component (Scene) | COMPS_| | |
+| Component (Actor) | ACOMP_| | |
+| Component (Scene) | SCOMP_| | |
 | Actor | ACT_| | |
 | Pawn | PWN_| | |
 | Character | CH_| | |
