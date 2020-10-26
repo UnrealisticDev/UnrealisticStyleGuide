@@ -88,7 +88,6 @@ Pair the base and variant of your asset with the following modifiers to calculat
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
 | Blueprint (Objects) | BP_| | |
-| Blueprint (Components) | BPC_| | |
 | Blueprint Interface | BPI_| | |
 | Blueprint Function Library | BPFL_| | |
 | Blueprint Macro Library | BPML_| | |
@@ -108,6 +107,8 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 
 | Asset Type | Prefix | Suffix | Notes |
 | ---------- | ------ | ------ | ----- |
+| Component (Actor) | COMPA_| | |
+| Component (Scene) | COMPS_| | |
 | Actor | ACT_| | |
 | Pawn | PWN_| | |
 | Character | CH_| | |
