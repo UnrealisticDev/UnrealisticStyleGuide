@@ -154,7 +154,14 @@
 		{
       "aka": "MaterialInstance",
 			"class": "MaterialInstanceConstant",
-			"prefix": "MI_"
+      "prefix": "MI_",
+      "suffix": "_C" 
+    },
+    {
+      "aka": "MaterialInstance",
+			"class": "MaterialInstanceDynamic",
+      "prefix": "MI_",
+      "suffix": "_D"
 		},
 		{
 			"class": "MaterialParameterCollection",

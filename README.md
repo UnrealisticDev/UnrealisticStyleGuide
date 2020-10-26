@@ -161,7 +161,8 @@ We can do better than that. Only apply the `BP_` prefix to Object Blueprints. Do
 | Material (Post Process) | M_|_PP | |
 | Material (UI) | M_|_UI| |
 | Material Function | MF_| | |
-| Material Instance | MI_| | |
+| Material Instance (Constant) | MI_|_C | |
+| Material Instance (Dynamic) | MI_|_D| |
 | Material Parameter Collection | MPC_| | |
 
 #### 1.3.6 Textures
